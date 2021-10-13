@@ -4,18 +4,15 @@
     border: 0;
     font-family: 'Avenir Next LT Pro', serif;
 }
-
 a {
     text-decoration: none;
 }
-
 .conteiner {
     width: 100%;
     max-width: 1420px;
     margin: 0 auto;
     box-sizing: border-box;
 }
-
 header {
     background: url(../img/background-header.png) no-repeat 100% 100%;
     height: 119px;
@@ -23,7 +20,6 @@ header {
     max-width: 1420px;
     margin: 0 auto;
 }
-
 .header-elements {
     display: flex;
     flex-direction: row;
@@ -31,26 +27,21 @@ header {
     position: absolute;
     z-index: 999;
 }
-
 .header-left-element {
     width: 120px;
     height: 120px;
     position: absolute;
 }
-
 .logo {
     margin-left: 30px;
 }
-
 .header-left-element img {
     width: 100%;
     height: 120px;
 }
-
 .logo-header {
     padding-left: 30px;
 }
-
 .contacts {
     margin-left: 632px;
     display: flex;
@@ -64,11 +55,9 @@ header {
     flex-direction: column;
     align-items: flex-start;
 }
-
 .contacts a {
     color: #061058;
 }
-
 .cabinet {
     background: linear-gradient(0deg, #00A87C, #00A87C), linear-gradient(180deg, #EBECF0 0%, rgba(235, 236, 240, 0) 100%);
     border: 2px solid #00A87C;
@@ -76,11 +65,9 @@ header {
     margin-right: 123px;
     margin-left: 28px;
 }
-
 .cabinet a {
     display: flex;
 }
-
 .cabinet-title {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -93,16 +80,13 @@ header {
     text-transform: capitalize;
     color: #FFFFFF;
 }
-
 .cabinet-avatar {
     padding: 20px 10px;
 }
-
 .cabinet-arrow {
     padding-left: 92px;
     padding-right: 20px;
 }
-
 .banner-statements {
     background: url(../img/block-backround1.png);
     width: 100%;
@@ -111,13 +95,11 @@ header {
     top: -8px;
     z-index: 1;
 }
-
 .banner-statements-box__text {
     margin-left: 119px;
     width: 851px;
     height: 100%;
 }
-
 .banner-statements__title {
     font-style: normal;
     font-weight: normal;
@@ -127,7 +109,6 @@ header {
     color: #FFFFFF;
     padding-top: 35px;
 }
-
 .banner-statements__text1 {
     font-style: normal;
     font-weight: bold;
@@ -139,7 +120,6 @@ header {
     color: #FFFFFF;
     padding-top: 11px;
 }
-
 .banner-statements__text2 {
     font-style: normal;
     font-weight: 600;
@@ -148,20 +128,16 @@ header {
     color: #FFFFFF;
     padding-top: 30px;
 }
-
 .banner-statements__elements {
     display: flex;
     padding-top: 27px;
 }
-
 .banner-statements__element1 {
     display: flex;
     align-items: center;
 }
-
 .elements-text {
 }
-
 .element1-text1 {
     font-style: normal;
     font-weight: 600;
@@ -172,7 +148,6 @@ header {
     text-transform: uppercase;
     color: #FFFFFF;
 }
-
 .element1-text2 {
     font-style: normal;
     font-weight: normal;
@@ -180,13 +155,11 @@ header {
     line-height: 133.5%;
     color: #FFFFFF;
 }
-
 .banner-statements__element2 {
     display: flex;
     align-items: center;
     margin-left: 45px;
 }
-
 .element2-text1 {
     font-style: normal;
     font-weight: 600;
@@ -197,7 +170,6 @@ header {
     text-transform: uppercase;
     color: #FFFFFF;
 }
-
 .element2-text2 {
     font-style: normal;
     font-weight: normal;
@@ -206,26 +178,22 @@ header {
     color: #fff;
     max-width: 351px;
 }
-
 .banner-statements__button {
     margin-top: 59px;
     background: #F0415D;
     padding-bottom: 3px;
 }
-
 .banner-statements-link {
     display: flex;
     background: #FF5F79;
     width: 100%;
     height: 40px;
 }
-
 .banner-statements-link img {
     height: 20px;
     margin-top: 10px;
     margin-left: 5px;
 }
-
 .button-text {
     font-style: normal;
     font-weight: 600;
@@ -239,13 +207,11 @@ header {
     color: #FFFFFF;
     padding-left: 10px;
 }
-
 .benefits-block {
     padding-left: 76px;
     padding-top: 79px;
     display: flex;
 }
-
 .block-benefits-left__title {
     font-style: normal;
     font-weight: bold;
@@ -257,19 +223,16 @@ header {
     max-width: 574px;
     width: 100%;
 }
-
 .block-benefits-left__delemiter {
     border: 4px solid #C9D2F3;
     width: 313px;
     margin-top: 13px;
 }
-
 .block-benefits-right {
     display: flex;
     padding-top: 91px;
     flex-direction: column;
 }
-
 .block-benefits-right__title {
     font-style: normal;
     font-weight: 600;
@@ -280,11 +243,9 @@ header {
     padding-bottom: 42px;
     margin-left: 31px;
 }
-
 .benefits-list {
     list-style-image: url('../img/benefits-img-list.svg');
 }
-
 .benefits-list li {
     font-style: normal;
     font-weight: 600;
@@ -293,32 +254,27 @@ header {
     padding-left: 29px;
     padding-bottom: 16px;
 }
-
 .online-list-box {
     border-left: 2px solid #C9D2F3;
     padding-top: 4px;
     padding-left: 19px;
 }
-
 .benefits-list-online {
     display: flex;
     padding-top: 49px;
 }
-
 .benefits-list__text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding-left: 15px;
 }
-
 .online-list-box__title {
     font-style: normal;
     font-weight: normal;
     line-height: 133.5%;
     color: #061058;
 }
-
 .benefits-list__text-element1 {
     font-style: normal;
     font-weight: 600;
@@ -327,14 +283,12 @@ header {
     text-transform: uppercase;
     color: #061058;
 }
-
 .learning-progress {
     background: #F8F8FB;
     width: 100%;
     height: 485px;
     position: relative;
 }
-
 .learning-progress__title {
     font-style: normal;
     font-weight: bold;
@@ -349,7 +303,6 @@ header {
     margin-left: 100px;
     padding-top: 46px;
 }
-
 .learning-progress__list {
     display: flex;
     justify-content: space-between;
@@ -357,7 +310,6 @@ header {
     align-content: center;
     margin: 0 120px;
 }
-
 .learning-progress__list li {
     display: flex;
     flex-direction: column;
@@ -365,7 +317,6 @@ header {
     align-items: center;
     width: 20%;
 }
-
 .list-text-bottom {
     font-style: normal;
     font-weight: 600;
@@ -374,7 +325,6 @@ header {
     text-align: center;
     color: #061058;
 }
-
 .list-text-bottom2 {
     font-style: normal;
     font-weight: normal;
@@ -383,12 +333,10 @@ header {
     text-align: center;
     color: #061058;
 }
-
 .learning-krok4 {
     position: relative;
     bottom: 17px;
 }
-
 .bottom-line {
     position: absolute;
     background: #C9D2F3;
@@ -399,18 +347,15 @@ header {
     z-index: 0;
     left: 126px;
 }
-
 .list-bottom-dot {
     z-index: 90;
 }
-
 footer {
     background: #046FB7;
     width: 1420px;
     height: 80px;
     margin: 0 auto;
 }
-
 .contact-footer {
     display: flex;
     align-content: center;
@@ -418,7 +363,6 @@ footer {
     margin-left: 120px;
     padding-top: 40px;
 }
-
 .contact-text a {
     font-style: normal;
     font-weight: normal;
@@ -427,7 +371,6 @@ footer {
     color: #FFFFFF;
     margin-left: 9px;
 }
-
 @media (max-width: 1420px) {
     .conteiner {
         width: 100%;
@@ -435,19 +378,16 @@ footer {
         margin: 0 auto;
         box-sizing: border-box;
     }
-
     .banner-statements {
         margin: 0 auto;
         width: 1420px;
     }
-
     .learning-progress {
         background: #F8F8FB;
         width: 1420px;
         height: 485px;
     }
 }
-
 @media (max-width: 320px) {
     .conteiner {
         width: 100%;
@@ -455,57 +395,45 @@ footer {
         margin: 0 auto;
         box-sizing: border-box;
     }
-
     .contacts {
         margin-left: 198px;
         width: 161px;
     }
-
     .cabinet {
         margin-right: 0;
         margin-left: 123px;
     }
-
     .banner-statements {
         background: url(../img/block-backround1.png) 100% no-repeat;
         margin: 0 auto;
         max-width: 1000px;
         height: 100%;
     }
-
     .banner-statements-box__text {
         margin-left: 42px;
     }
-
     .banner-statements__title {
         font-size: 12px;
     }
-
     .banner-statements__text1 {
         width: 400px;
     }
-
     .banner-statements__text2 {
         width: 500px;
     }
-
     .benefits-block {
         padding-left: 31px;
     }
-
     .learning-progress {
         max-width: 1000px;
         height: 100%;
     }
-
     .learning-progress__list {
         flex-direction: column;
     }
-
     .learning-krok4 {
         top: 10px;
     }
-
     footer {
         width: 1000px;
     }
